@@ -1,4 +1,8 @@
 from selenium.webdriver import Chrome
+from selenium.webdriver.common.by import By
+from selenium.webdriver.chrome import webdriver
+from selenium.webdriver import ActionChains
+
 
 # User Prompts for future logging in 
 email_ = str(input("Enter your USERNAME: "))
@@ -18,13 +22,14 @@ assert "Coursera" in driver.title
 # Find HTML/CSS element to insert username and password
 email = driver.find_element_by_name("email")
 password = driver.find_element_by_name("password")
-login = driver.find_element_by_tag_name("button")
+login = driver.find_element(By.TAG_NAME, "button")
 
 # Execute autofill
 email.send_keys(email_)
 password.send_keys(password_)
+
 # Execute click
-login.click()
+
 
 
 
