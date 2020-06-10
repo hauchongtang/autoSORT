@@ -4,7 +4,8 @@ from selenium.webdriver.common.keys import Keys
 # store base url
 # initialize webdriver exe path
 base_url = "https://www.coursera.org"
-driver = webdriver.chrome("D:/Python/AutoSubmission/chromedriver.exe")
+driver = webdriver.chrome(
+    executable_path="D:\Python\AutoSubmission\chromedriver.exe")
 # force open in maximised window
 driver.maximise_window()
 driver.implicitly_wait(10) # wait 10s before launch for error handling on laggy devices
