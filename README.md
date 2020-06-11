@@ -33,7 +33,7 @@ Work in progress...
 * Sort files according to genre
 * Over 140+ file extensions supported
 * Ability to leave it running indefinitely - new files will be sorted when detected by script
-#### Work in Progress :sad:
+#### Work in Progress :crying:
 * Customise your genre
 * Add your own file extensions
 #### My wishlist for the future
