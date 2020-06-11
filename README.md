@@ -11,11 +11,12 @@
 * [Contact](#contact)
 
 ## General info
-[![Build Status](https://img.shields.io/travis/gitpoint/git-point.svg?style=flat-square)](https://travis-ci.org/gitpoint/git-point)
+
 This project serves the purpose of sorting huge chunks of files according to their extensions by just a simple drag and drop operation
 
 ## Screenshots
 ![ss1](./img/ss1.jpg)
+
 Sorted files in their respective genre folders
 
 ## Technologies
