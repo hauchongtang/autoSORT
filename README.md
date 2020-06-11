@@ -36,7 +36,7 @@ Work in progress...
 #### Work in Progress :sob:
 * Customise your genre
 * Add your own file extensions
-#### My wishlist for the future
+#### My wishlist for the future :star:
 * Add GUI element
 * Interactive app
 
