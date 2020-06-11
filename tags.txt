@@ -1,0 +1,15 @@
+audio
+compressed
+disc
+None
+email
+executable
+font
+image
+internet
+presentation
+programming
+spreadsheet
+system
+video
+word-processor
