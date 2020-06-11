@@ -1,6 +1,6 @@
 # autoSORT
 [![Build Status](https://travis-ci.com/thchong-code/autoSORT-upload.svg?branch=master)](https://travis-ci.com/thchong-code/autoSORT-upload)
-[[!Commits](https://badgen.net/github/commits/micromatch/micromatch/4.0.1)]
+[[!Commits](https://badgen.net/badge/github/commits/micromatch/micromatch/4.0.1)]
 ## Contents
 * [General info](#general-info)
 * [Screenshots](#screenshots)
