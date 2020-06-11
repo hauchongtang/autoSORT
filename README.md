@@ -1,7 +1,7 @@
 # autoSORT
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
 [![Build Status](https://travis-ci.com/thchong-code/autoSORT-upload.svg?branch=master)](https://travis-ci.com/thchong-code/autoSORT-upload)
-[![GitHub commit activity](https://img.shields.io/github/commit-activity/y/thchong-code/autoSORT-upload)]
+![GitHub commit activity](https://img.shields.io/github/commit-activity/y/thchong-code/autoSORT-upload)
 ## Contents
 * [General info](#general-info)
 * [Screenshots](#screenshots)
