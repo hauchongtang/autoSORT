@@ -1,5 +1,5 @@
 # autoSORT
-
+[![Build Status](https://travis-ci.com/thchong-code/autoSORT-upload.svg?branch=master)](https://travis-ci.com/thchong-code/autoSORT-upload)
 ## Contents
 * [General info](#general-info)
 * [Screenshots](#screenshots)
