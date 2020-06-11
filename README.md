@@ -29,11 +29,11 @@ Project is created with:
 Work in progress...
 
 ## Features
-#### Features that are functional :sob:
+#### Features that are functional :smile:
 * Sort files according to genre
 * Over 140+ file extensions supported
 * Ability to leave it running indefinitely - new files will be sorted when detected by script
-#### Work in Progress :crying:
+#### Work in Progress :sob:
 * Customise your genre
 * Add your own file extensions
 #### My wishlist for the future
