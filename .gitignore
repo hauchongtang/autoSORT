@@ -3,3 +3,4 @@ _pycache_/
 extensions.csv
 tags.csv
 webInteracter.py
+chromedriver.exe
