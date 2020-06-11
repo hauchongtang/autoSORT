@@ -21,6 +21,11 @@ This project serves the purpose of sorting huge chunks of files according to the
 
 Sorted files in their respective genre folders
 
+![ss2](./img/ss2.jpg)
+![ss3](./img/ss3.jpg)
+
+Data scraped from the web!
+
 ## Technologies
 Project is created with:
 * Python 3.8.3 
