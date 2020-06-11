@@ -1,5 +1,5 @@
-/.vscode
-/_pycache_
+.vscode/
+_pycache_/
 extensions.csv
 tags.csv
 webInteracter.py
