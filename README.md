@@ -1,5 +1,5 @@
 # autoSORT
-[![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/thchong-code/autoSORT-upload?style=for-the-badge)
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/thchong-code/autoSORT-upload?style=for-the-badge)
@@ -46,12 +46,14 @@ Work in progress...
 #### Work in Progress :sob:
 * Customise your genre
 * Add your own file extensions
+* Unpack folders
 #### My wishlist for the future :star:
-* Add GUI element
-* Interactive app
+* Add GUI element --> Interactive element!
 
-## Status
-Project is: in progress 
+## Status 
+[![forthebadge](https://forthebadge.com/images/badges/60-percent-of-the-time-works-every-time.svg)](https://forthebadge.com)
+
+WORK IN PROGRESS : SEE FEATURES! :smile:
 
 ## Inspiration 
 [Automate the Boring Stuff Book](https://automatetheboringstuff.com/) 
