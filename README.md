@@ -60,4 +60,4 @@ WORK IN PROGRESS : SEE FEATURES! :smile:
 * The topic about os & file handling inspired me to automate the fussy job of sorting a myraid of files which can be time consuming. Why not run it in the background and let the script sort it out for you? :grin:
 
 ## Contact
-Created by [@HCTANG](https://github.com/thchong-code) - feel free to contact me!
+[![forthebadge](https://forthebadge.com/images/badges/built-by-codebabes.svg)](https://github.com/thchong-code) - feel free to contact me!
