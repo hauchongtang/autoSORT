@@ -4,9 +4,8 @@ from watchdog.events import FileSystemEventHandler
 import filefinder
 import os
 
-
 class Watcher:
-    DIRECTORY_TO_WATCH = "D:\Sorter"
+    DIRECTORY_TO_WATCH = filefinder.path_w
 
     def __init__(self):
         self.observer = Observer()

@@ -4,10 +4,13 @@ import glob
 import pathlib
 from os import path
 
-path_ = "D:/Sorter/*"
-filename = glob.glob(path_)
+path_ = "C:/Users/evota/Downloads"
+path_w = path_.replace('/', '\\')
+print(path_w)
+path_main = path_ + "/*"
+filename = glob.glob(path_main)
 
-# Arrays of file types/ extensions
+# Read from data (.txt file)
 def open_as_array(targetfile):
     f = open(targetfile, "r+")
     variablename = [line[:-1] for line in f.readlines()] # remove \n from every ele in tags[]
@@ -17,8 +20,6 @@ def open_as_array(targetfile):
 exts = open_as_array("extensions.txt")
 # print(exts)
 tags = open_as_array("tags.txt")
-tags[3] = "data" # fix "None" bug
-tags[14] = "wordprocessor" # remove dash (standardization)
 # print(tags)
 
 # assign to groups
@@ -40,7 +41,7 @@ wordprocessor = exts[135:]
 # print(data)
 
 def generatepathname(array, i):
-        name = "D:/Sorter/" + array[i]
+        name = path_ + "/" + array[i]
         return name
 
 audioLoc = generatepathname(tags, 0)
