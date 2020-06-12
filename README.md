@@ -1,7 +1,10 @@
 # autoSORT
 [![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)
+
 ![GitHub last commit](https://img.shields.io/github/last-commit/thchong-code/autoSORT-upload?style=for-the-badge)
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/thchong-code/autoSORT-upload?style=for-the-badge)
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ## Contents
 * [General info](#general-info)
 * [Screenshots](#screenshots)
