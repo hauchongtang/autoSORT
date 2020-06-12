@@ -4,7 +4,7 @@ import glob
 import pathlib
 from os import path
 
-path_ = "C:/Users/evota/Downloads"
+path_ = "D:\\Sorter"
 path_w = path_.replace('/', '\\')
 print(path_w)
 path_main = path_ + "/*"
@@ -41,7 +41,7 @@ wordprocessor = exts[135:]
 # print(data)
 
 def generatepathname(array, i):
-        name = path_ + "/" + array[i]
+        name = os.path.join(path_, array[i])#path_ + "/" + array[i]
         return name
 
 audioLoc = generatepathname(tags, 0)
@@ -60,6 +60,8 @@ systemLoc = generatepathname(tags, 12)
 videoLoc = generatepathname(tags, 13)
 wordLoc = generatepathname(tags, 14)
 
+# print(audioLoc)
+
 def do_sort(array, path):
     if os.path.splitext(file)[1] in array:
         if (os.path.exists(path)):
@@ -67,21 +69,28 @@ def do_sort(array, path):
         else:
             os.makedirs(path)
             shutil.move(file, path)
+def exception_handler(array, path):
+    try:
+        if not do_sort(array, path):
+            raise FileNotFoundError
+    except FileNotFoundError:
+        print("Files are sorted, listening for another action...")
 
 for file in filename:
-    do_sort(audio, audioLoc)
-    do_sort(compressed, compressedLoc)
-    do_sort(disc, discLoc)
-    do_sort(data, dataLoc)
-    do_sort(email, emailLoc)
-    do_sort(executable, executableLoc)
-    do_sort(font, fontLoc)
-    do_sort(image, imageLoc)
-    do_sort(internet, internetLoc)
-    do_sort(presentation, presentationLoc)
-    do_sort(programming, programmingLoc)
-    do_sort(spreadsheet, spreadsheetLoc)
-    do_sort(system, systemLoc)
-    do_sort(video, videoLoc)
-    do_sort(wordprocessor, wordLoc)
+    exception_handler(audio, audioLoc)
+    exception_handler(compressed, compressedLoc)
+    exception_handler(disc, discLoc)
+    exception_handler(data, dataLoc)
+    exception_handler(email, emailLoc)
+    exception_handler(executable, executableLoc)
+    exception_handler(font, fontLoc)
+    exception_handler(image, imageLoc)
+    exception_handler(internet, internetLoc)
+    exception_handler(presentation, presentationLoc)
+    exception_handler(programming, programmingLoc)
+    exception_handler(spreadsheet, spreadsheetLoc)
+    exception_handler(system, systemLoc)
+    exception_handler(video, videoLoc)
+    exception_handler(wordprocessor, wordLoc)
+
 
