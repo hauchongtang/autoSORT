@@ -44,6 +44,7 @@ Work in progress...
 * Over 140+ file extensions supported
 * Ability to leave it running indefinitely - new files will be sorted when detected by script
 #### Work in Progress :sob:
+* Convert code into classes for easier addition of features and maintability
 * Customise your genre
 * Add your own file extensions
 * Unpack folders
