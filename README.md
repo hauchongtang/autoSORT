@@ -35,30 +35,23 @@ Project is created with:
 * Beautiful Soup 4.9.0 
 * Pandas 1.0.4
 
-## Setup
-Work in progress...
-
 ## Features
 #### Features that are functional :smile:
 * Sort files according to genre
 * Over 140+ file extensions supported
 * Ability to leave it running indefinitely - new files will be sorted when detected by script
-#### Work in Progress :sob:
-* Convert code into classes for easier addition of features and maintability
-* Customise your genre
-* Add your own file extensions
-* Unpack folders
+
 #### My wishlist for the future :star:
 * Add GUI element --> Interactive element!
 
 ## Status 
 [![forthebadge](https://forthebadge.com/images/badges/60-percent-of-the-time-works-every-time.svg)](https://forthebadge.com)
 
-WORK IN PROGRESS : SEE FEATURES! :smile:
+End! :smile:
 
 ## Inspiration 
 [Automate the Boring Stuff Book](https://automatetheboringstuff.com/) 
 * The topic about os & file handling inspired me to automate the fussy job of sorting a myraid of files which can be time consuming. Why not run it in the background and let the script sort it out for you? :grin:
 
 ## Contact
-[!@HCTANG](https://github.com/thchong-code) - feel free to contact me!
+[@HCTANG](https://github.com/thchong-code) - feel free to contact me!
